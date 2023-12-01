@@ -2,15 +2,78 @@ h2{
   background-color: gray;
   padding: 3em;
 }
+section:first-of-type{
+  text-align: center;
+  padding: 0;
+}
 
 section:nth-of-type(2n+2)>ol>li:nth-child(2n+2){
-  background-color: khaki;
+  background-color: rgba(240, 230, 140, 0.5);
 }
 
 section:nth-of-type(2n+1)>ol>li:nth-child(2n+3){
-  background-color: green;
+  background-color: rgba(128, 36, 0, 0.37);
 }
 
 ol>li{
   padding: 2em;
+}
+
+.button{
+  border: none;
+}
+
+.Abia_state{
+  text-align: center;
+  margin-top: 24px;
+}
+.image{
+  margin-top: 30px;
+}
+
+.Kano_state{
+  text-align: center;
+  margin-top: 24px;
+}
+.image_kano{
+   margin-top: 30px;
+}
+.Yobe_state{
+  text-align: center;
+  margin-top: 24px;
+}
+.image_yobe{
+  margin-top: 30px;
+}
+.abuja{
+  text-align: center;
+  margin-top: 24px;
+}
+.image_abuja{
+  margin-top: 30px;
+}
+.lagos_state{
+  text-align: center;
+  margin-top: 24px;
+}
+.image_lagos{
+  margin-top: 30px;
+}
+.akwa_ibom{
+  text-align: center;
+  margin-top: 24px;
+}
+.image_akwaibom{
+  margin-top: 30px;
+}
+.DL>dt{
+  text-align: left;
+  font-size: medium;
+  font-weight: bold;
+  margin: 15px;
+  background-color: rgba(128, 128, 128, 0.774);
+}
+.button{
+  text-align: center;
+  background-color: rgba(240, 230, 140, 0.5);
 }
